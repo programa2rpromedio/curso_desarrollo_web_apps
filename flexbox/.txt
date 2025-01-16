@@ -1,0 +1,54 @@
+Sección: Programación
+Título: "JavaScript cumple 29 años: ¿Qué lo hace el rey del desarrollo web?"
+Resumen: Desde su creación en 1995 por Brendan Eich, JavaScript se ha convertido en el lenguaje esencial para el desarrollo web. Con frameworks como React, Angular y Vue, sigue liderando el panorama tecnológico.
+Contenido: El artículo explora cómo JavaScript ha evolucionado a lo largo de las décadas, sus casos de uso actuales y las tendencias que moldearán su futuro.
+Tags: JavaScript, desarrollo web, frameworks.
+
+Título: "Python 3.13: Las nuevas funciones que debes conocer"
+Resumen: La última versión de Python promete ser más rápida y eficiente. Con cambios significativos en la gestión de memoria y nuevas herramientas para desarrolladores, se posiciona como un lenguaje imprescindible para 2024.
+Contenido: Un análisis detallado de las nuevas características y cómo impactarán en áreas como machine learning, desarrollo web y scripting.
+Tags: Python, desarrollo, IA.
+
+Sección: Tecnología
+Título: "Los 5 gadgets que cambiarán nuestra vida en 2025"
+Resumen: Desde gafas de realidad aumentada hasta hogares inteligentes completamente autónomos, te presentamos los dispositivos que prometen revolucionar la forma en que vivimos y trabajamos.
+Contenido: Incluye análisis de prototipos y conceptos presentados en las ferias tecnológicas más importantes del año.
+Tags: gadgets, realidad aumentada, innovación.
+
+Título: "Starlink llega a las zonas rurales de Argentina"
+Resumen: El servicio de internet satelital de Elon Musk promete conectar a comunidades rurales con alta velocidad. ¿Qué implica este avance para la brecha digital en el país?
+Contenido: Opiniones de expertos, impacto económico y la experiencia de los primeros usuarios locales.
+Tags: Starlink, internet, Argentina.
+
+Sección: Informática
+Título: "Las vulnerabilidades más críticas de 2024 según OWASP"
+Resumen: OWASP publica su lista anual de amenazas de seguridad informática. En 2024, las brechas en APIs y la seguridad de aplicaciones móviles son los principales puntos de atención.
+Contenido: Consejos para proteger aplicaciones y herramientas recomendadas por expertos en ciberseguridad.
+Tags: seguridad informática, OWASP, ciberseguridad.
+
+Título: "¿Es posible hackear un coche eléctrico? Una investigación preocupante"
+Resumen: Con el aumento de vehículos conectados a internet, expertos advierten sobre los riesgos de seguridad asociados con los coches eléctricos.
+Contenido: Análisis de ataques recientes y recomendaciones para proteger estos vehículos.
+Tags: coches eléctricos, seguridad, IoT.
+
+Sección: Software
+Título: "¿Qué esperar de Windows 12?"
+Resumen: Microsoft ha confirmado el desarrollo de Windows 12, que se centrará en inteligencia artificial y personalización. Aquí te contamos todo lo que sabemos hasta ahora.
+Contenido: Detalles filtrados, fechas tentativas de lanzamiento y funcionalidades clave.
+Tags: Windows, software, IA.
+
+Título: "Linux Mint 21.3: La distro perfecta para principiantes en 2024"
+Resumen: La comunidad de Linux sigue creciendo, y Mint es una de las opciones más amigables para usuarios nuevos.
+Contenido: Características destacadas, comparación con otras distros y opiniones de la comunidad.
+Tags: Linux, software libre, Linux Mint.
+
+Sección: Hardware
+Título: "AMD vs. Intel: ¿Quién domina el mercado en 2024?"
+Resumen: Con la llegada de los procesadores de última generación de ambas marcas, los entusiastas se preguntan cuál ofrece el mejor rendimiento.
+Contenido: Pruebas de rendimiento, comparativas y consejos para elegir el mejor procesador según tus necesidades.
+Tags: AMD, Intel, hardware.
+
+Título: "Las GPU más esperadas del año: NVIDIA RTX 5090 y AMD RX 8950 XT"
+Resumen: Los gamers y creadores de contenido están ansiosos por ver cómo estas tarjetas gráficas revolucionarán el mercado.
+Contenido: Fecha de lanzamiento, características filtradas y expectativas de rendimiento.
+Tags: NVIDIA, AMD, GPUs.

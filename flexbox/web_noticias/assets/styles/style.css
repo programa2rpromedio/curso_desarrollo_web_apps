@@ -1,0 +1,175 @@
+/* <!-- color
+ primario: #080808
+secundario #161B21 
+--> */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+.p-1 {
+  padding: 0.5rem;
+}
+.p-2 {
+  padding: 1rem;
+}
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 3rem;
+}
+
+.p-5 {
+  padding: 4rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container_logo > img {
+  width: 100px;
+}
+
+nav {
+  display: flex;
+  column-gap: 1rem;
+}
+
+nav > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+nav > a:hover {
+  background-color: #6fd356;
+}
+
+main {
+  /* max-width: 1280px; */
+  margin-top: 120px;
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.noticia_novedades {
+  display: flex;
+}
+
+.noticia_principal {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  column-gap: 2rem;
+}
+
+.noticia_principal_img {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.noticia_principal_img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 16px;
+}
+
+.noticia_principal_title,
+.noticia_principal_descripcion {
+  padding: 2rem 0;
+}
+
+.noticia_principal_descripcion > button {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+
+.novedades {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.top {
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .noticia_principal > div > img {
+  width: 300px;
+} */
+
+.novedades_title {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid white;
+}
+
+.card_novedad {
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  box-shadow: 3px 3px 2px rgba(236, 236, 236, 0.22);
+}
+
+.card_novedad > p {
+  color: rgb(169, 169, 169);
+}
+
+.container_novedades {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.card_top {
+  display: flex;
+  max-width: 400px;
+}
+
+.card_top_body {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.card_top_body > strong {
+  color: #6fd356;
+}
+
+.card_top_body > p {
+  color: rgb(169, 169, 169);
+}
+
+.card_top_header > img {
+  width: 100px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}

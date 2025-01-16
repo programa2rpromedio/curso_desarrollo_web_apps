@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Servicio tecnico armado y reparacion de pc</title>
+    <link
+      rel="stylesheet"
+      href="./assets/css/styles.css"
+    />
+
+    <meta
+      name="description"
+      content="Servicio profesional de soporte IT, armado y reparación de PC. Soluciones rápidas y efectivas para hardware, software y optimización de sistemas."
+    />
+    <meta
+      name="keywords"
+      content="soporte IT, reparación de PC, armado de PC, servicio técnico, reparación de computadoras, mantenimiento de hardware, optimización de software, instalación de programas"
+    />
+    <meta
+      name="author"
+      content="Programador Promedio"
+    />
+
+    <meta
+      name="robots"
+      content="index, follow"
+    />
+
+    <!-- Open Graph para redes sociales -->
+    <meta
+      property="og:title"
+      content="Soporte IT, Armado y Reparación de PC | Programador Promedio"
+    />
+    <meta
+      property="og:description"
+      content="¿Problemas con tu PC? Ofrecemos soporte técnico, reparación y armado de computadoras con garantía de calidad. Contáctanos hoy."
+    />
+    <meta
+      property="og:image"
+      content="./assets/img/Isologo.webp"
+    />
+    <!-- <meta
+      property="og:url"
+      content="https://www.tuweb.com"
+    /> -->
+    <meta
+      property="og:type"
+      content="website"
+    />
+
+    <!-- Twitter Card -->
+    <!-- <meta
+      name="twitter:card"
+      content="summary_large_image"
+    />
+    <meta
+      name="twitter:title"
+      content="Soporte IT, Armado y Reparación de PC"
+    />
+    <meta
+      name="twitter:description"
+      content="Servicio confiable de soporte técnico, armado y reparación de computadoras. ¡Estamos aquí para ayudarte!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.tuweb.com/imagen-destacada.jpg"
+    /> -->
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="./assets/img/Isologo.webp"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="./assets/img/Isologo.webp"
+        alt="Logo de empresa"
+        class="header_logo"
+      />
+
+      <nav class="header_nav">
+        <ul class="header_navList">
+          <li class="navlist_item">
+            <a
+              href="#"
+              title="Ir a inicio"
+              >Inicio</a
+            >
+          </li>
+          <li class="navlist_item">
+            <a
+              href="#ubicacion"
+              title="Ir a ubicacion"
+              >Ubicacion</a
+            >
+          </li>
+          <li class="navlist_item">
+            <a
+              href="#"
+              title="Ir a contacto"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero_video">
+      <video
+        src="./assets/video/armadopc.mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+    </div>
+
+    <main>
+      <section
+        id="ubicacion"
+        class="margin_top-3"
+      >
+        <h2 class="margin_bottom-2">Ubicacion</h2>
+
+        <div class="container_map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.403140866594!2d-57.9571652235182!3d-34.921425074347475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62e3fc93575%3A0x6ffaec3bf616e000!2sPlaza%20Moreno!5e0!3m2!1ses!2sar!4v1732233600401!5m2!1ses!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <section
+        id="contacto"
+        class="margin_top-3 margin_bottom-2"
+      >
+        <h2>Contacto</h2>
+
+        <form
+          class="form_contacto"
+          action="https://formsubmit.co/programadorpromedio@gmail.com"
+          method="POST"
+        >
+          <div class="control_input">
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              name="nombre"
+              placeholder="Juan Pablo"
+              required
+            />
+          </div>
+
+          <div class="control_input">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="juanpablo@gmail.com"
+              required
+            />
+          </div>
+
+          <div
+            class="control_input"
+            id="input_telefono"
+          >
+            <label for="telefono">Telefono</label>
+            <input
+              type="tel"
+              name="telefono"
+              placeholder="1112223334"
+              required
+            />
+          </div>
+
+          <div id="input_consulta">
+            <label for="consulta">Consulta</label>
+            <textarea
+              name="consulta"
+              placeholder="Deja tu consulta..."
+              required
+            ></textarea>
+          </div>
+
+          <div class="form_botones margin_top-3">
+            <button type="reset">Limpiar formulario</button>
+            <button type="submit">Enviar consulta</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <p class="margin_top-3 margin_bottom-2">
+          Derechos reservados &copy; 2024 - Todos los derechos son reservados
+        </p>
+        <div class="social_media">
+          <a
+            href="#"
+            title="Facebook"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a
+            href="#"
+            title="Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="#"
+            title="Twitter"
+          >
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="btn_wsp">
+      <a
+        href="https://wa.me/"
+        target="_blank"
+      >
+        <img
+          src="./assets/img/social.png"
+          alt="WhatsApp boton"
+        />
+      </a>
+    </div>
+  </body>
+</html>

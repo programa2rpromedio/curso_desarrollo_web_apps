@@ -1,0 +1,52 @@
+/* sintaxis css 
+selector: etiqueta, clase, id
+selector {
+  cada una de las reglas
+  propiedad: valor;
+  ...
+  npropiedad: valor
+} 
+*/
+
+body {
+  /* background-color: aquamarine; */
+}
+
+h1 {
+  text-align: center;
+}
+
+#tituloGrande {
+  font-size: 80px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.fondo {
+  background: rgb(90, 232, 90);
+}
+
+.tituloChico {
+  font-size: 60px;
+}
+
+section h2 {
+  font-weight: bold;
+}
+
+section > h3 {
+  color: blue;
+}
+
+.box {
+  color: red;
+}
+
+.box div > h3 {
+  color: red !important;
+}
+.box div > h3 {
+  color: blue;
+}

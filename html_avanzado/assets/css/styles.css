@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.margin_top-1 {
+  margin-top: 16px;
+}
+.margin_top-2 {
+  margin-top: 24px;
+}
+.margin_top-3 {
+  margin-top: 32px;
+}
+
+.margin_bottom-1 {
+  margin-bottom: 16px;
+}
+.margin_bottom-2 {
+  margin-bottom: 24px;
+}
+
+header {
+  border: 1px solid;
+  padding: 16px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.header_logo {
+  width: 100px;
+}
+
+.header_nav,
+.header_navList,
+.header_navList > li {
+  display: inline;
+}
+
+.header_nav {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  font-size: 20px;
+  /* text-align: center; */
+}
+
+.navlist_item > a {
+  text-decoration: none;
+  color: black;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.hero_video {
+  height: 90vh;
+  overflow: hidden;
+}
+
+#ubicacion > h2,
+#contacto > h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.container_map,
+.form_contacto {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.container_map > iframe {
+  display: block;
+  margin: auto;
+}
+
+.form_contacto {
+  width: 600px;
+  padding: 8px 16px;
+}
+
+.control_input {
+  display: inline-block;
+  width: 280px;
+}
+
+.control_input label,
+.control_input input,
+#input_consulta textarea,
+#input_consulta label {
+  display: block;
+}
+
+.control_input input {
+  margin-top: 8px;
+  padding: 8px;
+  width: 100%;
+}
+
+#input_telefono,
+#input_consulta {
+  margin-top: 8px;
+  width: 100%;
+}
+
+#input_consulta textarea {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.form_botones button {
+  padding: 8px;
+  margin: 0 8px;
+}
+
+.form_botones button[type='submit'] {
+  background-color: #6fd356;
+}
+.form_botones button[type='reset'] {
+  background-color: #ffff1a;
+  margin-left: 0px;
+}
+
+footer {
+  border: 1px solid black;
+}
+
+footer > div {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social_media > a {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  margin: 0 8px;
+}
+
+.btn_wsp {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+}
+
+.btn_wsp > a > img {
+  width: 60px;
+}

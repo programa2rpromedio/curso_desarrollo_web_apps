@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Grid Basico</title>
+
+    <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box_grid {
+        width: 80%;
+        border: 1px solid;
+        display: grid;
+        /* grid-template-columns: 100px 200px 300px; */
+        /* grid-template-columns: repeat(3, 300px); */
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 200px 200px;
+        /* grid-auto-rows: 200px; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* height: 700px; */
+        justify-items: center;
+        align-items: center;
+      }
+
+      .item_grid {
+        width: 100px;
+        height: 100px;
+        background-color: lightgray;
+        border: 1px solid;
+      }
+
+      #item1 {
+        width: 100%;
+        grid-column: 1 / 4;
+      }
+
+      #item6 {
+        width: 100%;
+        grid-column: 1/4;
+        grid-row: 3 / 4;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="box_grid">
+      <div
+        class="item_grid"
+        id="item1"
+      >
+        Item 1
+      </div>
+      <div
+        class="item_grid"
+        id="item2"
+      >
+        Item 2
+      </div>
+      <div class="item_grid">Item 3</div>
+      <div class="item_grid">Item 4</div>
+      <div class="item_grid">Item 5</div>
+      <div
+        class="item_grid"
+        id="item6"
+      >
+        Item 6
+      </div>
+    </section>
+  </body>
+</html>

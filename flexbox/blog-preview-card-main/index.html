@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      html {
+        color-scheme: dark;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .card {
+        width: 400px;
+        border: 1px solid;
+        padding: 2rem;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+      }
+
+      .card_header > img {
+        width: 100%;
+      }
+
+      .card_header {
+        display: flex;
+        justify-content: center;
+      }
+
+      .card_body > .card_body_date {
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+      }
+
+      .card_body_date > span {
+        padding: 8px;
+        background-color: hsl(47, 88%, 63%);
+        width: max-content;
+      }
+
+      h1 {
+        font-weight: 900;
+      }
+
+      .card_footer {
+        display: flex;
+        align-items: center;
+        column-gap: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card_header">
+        <img
+          src="./assets/images/Isologo.webp"
+          alt="Logo"
+        />
+      </div>
+
+      <div class="card_body">
+        <div class="card_body_date">
+          <span>Learning</span>
+          <small> Published 21 Dec 2023 </small>
+        </div>
+        <h1>HTML & CSS foundations</h1>
+        <p>
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </div>
+
+      <div class="card_footer">
+        <img
+          src="./assets/images/image-avatar.webp"
+          alt=""
+        />
+        <strong> Greg Hooper </strong>
+      </div>
+    </div>
+  </body>
+</html>

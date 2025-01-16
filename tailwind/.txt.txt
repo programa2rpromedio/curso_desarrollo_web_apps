@@ -1,0 +1,15 @@
+https://www.afashop.com.ar/?srsltid=AfmBOooMVrRf2BLrsfW_LR0_iFSZp5hwXzUmlUaoX21UT1FVibytI4dJ
+
+tailwind + flowbite
+
+Incluye el CDN de Tailwind CSS Agrega el siguiente enlace en el <head> de tu documento HTML para usar Tailwind directamente desde su CDN:
+
+html
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+Incluye el CDN de Flowbite Flowbite también proporciona su archivo CSS y JS a través de un CDN. Incluye estos enlaces en tu <head> (para CSS) y antes de cerrar el <body> (para JS):
+html
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
