@@ -1,0 +1,158 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: #555;
+}
+
+/* Menú hamburguesa */
+.menu-icon {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked + .menu-icon + ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #333;
+  width: 200px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+main section {
+  flex: 2;
+  padding: 1rem;
+  background: #f4f4f4;
+}
+
+main aside {
+  flex: 1;
+  padding: 1rem;
+  background: #ddd;
+}
+
+.gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
+
+/* Media queries */
+
+/* Móvil: <600px */
+@media (max-width: 599px) {
+  nav ul {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  main {
+    flex-direction: column;
+  }
+}
+
+/* Tablet: 600px - 1024px */
+@media (min-width: 600px) and (max-width: 1024px) {
+  header {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+  nav {
+    margin-left: 0;
+  }
+
+  main section,
+  main aside {
+    flex: 1;
+  }
+}
+
+/* Escritorio: >1024px */
+@media (min-width: 1025px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
